@@ -1,0 +1,35 @@
+header{
+    display: grid;
+    width: 100%;
+    height: 600px;
+    justify-content: space-around;
+    background-image: url("/seccion1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: saturation;
+}
+.titulo{
+    color: #c23939;
+}
+
+.parrafo{
+    color: rgb(104, 36, 168);
+    font-size: 70px;
+}
+
+
+
+
+.sixtyfour-convergence{
+  font-family: "Sixtyfour Convergence", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-size: 60px;
+  font-style: normal;
+  font-variation-settings:
+    "BLED" 0,
+    "SCAN" 0,
+    "XELA" 0,
+    "YELA" 0;
+}
+

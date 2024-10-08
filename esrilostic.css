@@ -1,5 +1,5 @@
 body{
-    background-color: black;
+    background-color: rgb(19, 13, 13);
 }
 .titulo{
 
@@ -7,8 +7,9 @@ body{
 }
 .titulo{
     text-align: center;
-    color: wheat;
+    color: rgba(177, 131, 47, 0.603);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   
 }
 
 .textonormal{
@@ -18,33 +19,29 @@ body{
 
 
 .caja{
-    color: rgb(6, 6, 46);
+    
     font-family: Arial, Helvetica, sans-serif;
-    background-color: rgb(85, 150, 20);
-    border-radius: 34px;
-    padding: 34px;
-    box-shadow: 10px 10px 10px rgb(37, 207, 46);
+    background-image: url(https://www.msrcosmos.com/wp-content/themes/msrcosmos/assets/img/AppModernization-img.jpg );
+    border-radius: 46px;
+    padding: 45px;
+    box-shadow: 10px 10px 10px rgb(163, 177, 223);
 }
 .caja2{
     width: 200px;
     height: 400px;
     padding: 28px;
     margin: 65px;
-    box-shadow: 0 0 10px aqua;
-    border: 15px solid rgb(41, 18, 18); 
-    background-color: aqua;
+    box-shadow: 0 0 30px rgb(155, 221, 238);
+    border: 15px solid rgb(41, 71, 134); 
+    background-color: rgb(115, 185, 185);
 } 
 
 
 
 .secundario{
-    color: rgb(66, 59, 59);
+    color: rgb(124, 21, 21);
 }
 
-.contenedor{
-    display: flex;
-    justify-content: space-around;
-}
 
 .item{
     width: 50%;
@@ -59,7 +56,16 @@ body{
 }
 
 .gri-item{
-    background-color: rgb(16, 175, 175);
+    background-color: rgb(185, 219, 31);
     padding: 20px;
 }
-
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+@media (max-width:600px) {
+    .contenedor{
+        flex-direction: column;
+    }
+}
